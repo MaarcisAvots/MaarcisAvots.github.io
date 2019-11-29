@@ -1,0 +1,53 @@
+.MainBox {
+    background-color: lightcoral;
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+.top {
+    width: 800px;
+    height: 100px;
+    background-color: orange;
+}
+.top>img {
+    max-width: 75px;
+    margin: 10px;
+    float: right;
+}
+.top>h3 {
+    display: inline-block;
+    position: relative;
+    top: 12px;
+    font-size: 70px;
+}
+.main {
+    background-color: lightskyblue;
+    width: 800px;
+    height: 250px;
+    float: left;
+}
+.main>p {
+    text-align: left;
+    line-height: normal;
+    top: 50px;
+    position: relative;
+    font-family: "Berlin Sans FB Demi", serif;
+    font-size: 24px;
+}
+.footer {
+    background-color: orange;
+    width: 800px;
+    height: 50px;
+    text-align: right;
+}
+.footer>ul>li {
+    display: inline-block;
+    padding: 5px 5px 5px 5px;
+    background-color: red;
+    position: relative;
+    top: 12px;
+    right: 6px;
+    font-family: "Berlin Sans FB Demi", serif;
+    font-size: 24px;
+}

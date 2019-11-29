@@ -1,0 +1,37 @@
+.Mainbox{
+    background-image: url("http://getwallpapers.com/wallpaper/full/3/6/c/1031238-top-siberian-tiger-wallpaper-1920x1080.jpg")
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    width: 800px;
+}
+
+.left{
+    width: 380px;
+    height: 600px;
+    background-color: lightgoldenrodyellow;
+    padding: 10px 10px;
+    float: left;
+    font-family: "Berlin Sans FB Demi", serif;
+    font-size: 18px;
+}
+
+.right{
+    width: 380px;
+    height: 600px;
+    background-color: lightpink;
+    padding: 10px 10px;
+    float: left;
+    font-family: "Berlin Sans FB Demi", serif;
+    font-size: 18px;
+}
+
+.left>text>big{
+    font-size: 50px;
+}
+
+.right>text>big{
+    font-size: 50px;
+}

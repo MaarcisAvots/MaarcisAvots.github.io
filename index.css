@@ -1,0 +1,73 @@
+body, html{
+    height: 100%;
+}
+
+.Mainbox{
+    background-image: url("https://3.bp.blogspot.com/-DwLdaEYdp_Y/V2uXQkDPTKI/AAAAAAAACPc/F8ctIdSn5qYxSjelCHm6gPxVpzA7wt9CgCKgB/s1600/tiger%2Bhd%2Bwallpaper%2B1.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+.box{
+    background-color: dimgray;
+    width: 800px;
+    height: 600px;
+    opacity: 0.75;
+}
+
+.top{
+    width: 800px;
+    background-color: orange;
+    height: 90px;
+    float: top;
+}
+
+.top>ul>font{
+    font-size: 70px;
+    vertical-align: middle;
+}
+
+.right{
+    width: 250px;
+    height: 510px;
+    background-color: lightgoldenrodyellow;
+    opacity: 0.75;
+    float: left;
+    font-size: 18px;
+}
+
+.middle{
+    width: 300px;
+    height: 510px;
+    background-color: lightcyan;
+    opacity: 0.75;
+    float: left;
+    font-size: 18px;
+}
+
+.left{
+    width: 250px;
+    height: 510px;
+    background-color: lightyellow;
+    opacity: 0.75;
+    float: left;
+    font-size: 18px;
+}
+
+.right>text>ul>center{
+    text-align: center;
+    font-size: 25px;
+}
+
+.middle>text>ul>center{
+    text-align: center;
+    font-size: 25px;
+}
+
+.left>text>ul>center{
+    text-align: center;
+    font-size: 25px;
+}
